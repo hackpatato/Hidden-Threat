@@ -35,7 +35,7 @@ func Geturl() {
 
 	fileURL := "https://test[.]com/dowland.exe"
 
-	fmt.Println("Downloading...")
+	//fmt.Println("Downloading...")
 	err := DownloadFile(savePath, fileURL)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
