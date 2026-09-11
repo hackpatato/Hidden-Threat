@@ -26,10 +26,13 @@ cd Hidden-Threat
 
 # Compile the project
 # FOR Ubuntu/Debian :
+sudo apt update && sudo apt install golang-go
 sudo apt install zig
 # FOR Arch Linux :
+sudo pacman -S go
 sudo pacman -S zig
-# AND 
+# AND
+go mod tidy
 CGO_ENABLED=1 GOOS=windows GOARCH=amd64 CC="zig cc -target x86_64-windows-gnu" CXX="zig c++ -target x86_64-windows-gnu" go build -o TEST.exe .
 ""
 ```
