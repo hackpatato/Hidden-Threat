@@ -11,7 +11,7 @@ Hidden-Threat
 **Hidden Threat Description:**
 ------
 A lightweight, minimal Proof-of-Concept (PoC) dropper developed for Red Teaming scenarios, payload delivery testing, and malware analysis research.
-------
+
 <div align="center">
 
   <img src="logo.png" alt="Hidden-Threat Logo" width="360">
