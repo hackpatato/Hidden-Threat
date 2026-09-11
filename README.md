@@ -15,7 +15,7 @@ Hidden-Threat
   <img src="logo.png" alt="Hidden-Threat Logo" width="360">
 
 
-Compilation
+**Compilation**
 ```
 
 # Clone the repository
