@@ -15,3 +15,20 @@ Hidden-Threat
   <img src="logo.png" alt="Hidden-Threat Logo" width="360">
 
 
+Compilation
+""
+
+# Clone the repository
+git clone https://github.com/hackpatato/Hidden-Threat.git
+
+# Navigate to the project directory
+cd Hidden-Threat
+
+# Compile the project
+# FOR Ubuntu/Debian :
+sudo apt install zig
+# FOR Arch Linux :
+sudo pacman -S zig
+# AND 
+CGO_ENABLED=1 GOOS=windows GOARCH=amd64 CC="zig cc -target x86_64-windows-gnu" CXX="zig c++ -target x86_64-windows-gnu" go build -o TEST.exe .
+""
