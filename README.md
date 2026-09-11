@@ -23,6 +23,7 @@ git clone https://github.com/hackpatato/Hidden-Threat.git
 
 # Navigate to the project directory
 cd Hidden-Threat
+cd src
 
 # Compile the project
 # FOR Ubuntu/Debian :
