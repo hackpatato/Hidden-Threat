@@ -1,6 +1,11 @@
 package main
 import "fmt"
 
+//Hi, this is my first GO project.  
+
+
+
+
 func main(){
 	if CheckSandbox() {
 		fmt.Println("we are shited")
@@ -10,7 +15,7 @@ func main(){
 		
 		
 	}
-	
+
 	
 }
 	
